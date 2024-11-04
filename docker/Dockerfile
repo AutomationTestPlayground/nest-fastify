@@ -35,7 +35,7 @@ COPY --from=build-frontend /app/build/. ./other/public/.
 
 # Install package and build backend
 ENV NODE_OPTIONS=--max_old_space_size=4048
-RUN npm install --force && \
+RUN npm install ci && \
 npm run build && \
 npm cache clean --force
 

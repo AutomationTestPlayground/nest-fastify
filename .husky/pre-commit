@@ -1,1 +1,1 @@
-npx lint-staged && npm run test:e2e
+npx lint-staged

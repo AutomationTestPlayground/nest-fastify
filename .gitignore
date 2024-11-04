@@ -39,7 +39,6 @@ lerna-debug.log*
 !.env.test
 .history
 db-data
-package-lock.json
 other/public/assets
 other/public/locales
 other/upload
@@ -48,5 +47,4 @@ other/upload
 frontend/test/result
 frontend/build
 frontend/node_modules
-frontend/package-lock.json
 
